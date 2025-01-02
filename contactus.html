@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./Styles/contactus.css">
+    <link rel="stylesheet" href="./Styles/homepageStyle.css">
+</head>
+
+<body>
+    <div class="contact-container">
+
+        <!-- Navbar -->
+        <div class="navbarstyle transparent navcontents" id="navbar">
+            <div class="logo"><a href="./index.html">
+                    <img src="./Assets/logo png 2023.png" alt="" class="logodesign">
+                </a></div>
+            <div class="menu">
+                <a href="./index.html">Home</a>
+                <a href="./aboutus.html">About Us</a>
+                <a href="#">Our Services</a>
+                <a href="currentjobs.html">Current Jobs</a>
+                <a href="#">Hire Candidate</a>
+                <a href="contactus.html" class="join-us">Contact Us</a>
+            </div>
+
+        </div>
+        <div class="contact-us">
+            <h1>Contact Us</h1>
+            <div class="contact-container">
+                <div class="contact-item">
+                    <div class="icon-box phone-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h2>Phone Number</h2>
+                    <p>+1 302 315 6364</p>
+                    <p>+91 63851 40800</p>
+                </div>
+                <div class="contact-item">
+                    <div class="icon-box email-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h2>Email Address</h2>
+                    <p>sales@innovvalleyworks.com</p>
+                    <p>support@innovvalleyworks.com</p>
+                </div>
+                <div class="contact-item">
+                    <div class="icon-box location-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h2>Office Location</h2>
+                    <p>No.25, AGT Business Park,</p>
+                    <p>Avinashi Road, Coimbatore 641014, India.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form-container">
+            <h1>Get in touch with us</h1>
+            <p>Please fill out our brief form, and we'll get in touch with lightning speed to assist you promptly. Your satisfaction is our priority!</p>
+            <form id="contactForm" enctype="multipart/form-data">
+                <div class="form-row">
+                    <input type="text" name="firstName" placeholder="First Name" required>
+                    <input type="text" name="lastName" placeholder="Last Name" required>
+                </div>
+                <div class="form-row">
+                    <input type="email" name="email" placeholder="Email ID" required>
+                    <input type="text" name="companyName" placeholder="Company Name">
+                </div>
+                <div class="form-row">
+                    <textarea name="description" placeholder="Description" rows="5" required></textarea>
+                </div>
+                <div class="form-row">
+                    <label for="fileUpload">Upload File:</label>
+                    <input type="file" id="fileUpload" name="file" accept=".jpg,.png,.pdf,.doc,.docx" required>
+                </div>
+                <div class="form-row">
+                    <button type="submit">Submit Now</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+        
+        <footer class="overallfootercontents">
+            <div class="footersections">
+
+                <div class="footersection1">
+                    <img src="./Assets/logo png 2023.png" alt="" class="logodesign"> <br>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.4440542568327!2d76.941513!3d11.0802453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f77cf533bb3d%3A0x70adadea5faef9fa!2sCOVAIJOBS-%20Trusted%20Job%20consultancy!5e0!3m2!1sen!2sin!4v1735186953213!5m2!1sen!2sin"
+                        class="iframemap" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="footersection2">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="./aboutus.html">About Us</a></li>
+                        <li><a href="./aboutus.html">Our Services</a></li>
+                        <li><a href="./aboutus.html">Industries</a></li>
+                        <li><a href="./aboutus.html">Hire Candidate</a></li>
+                        <li><a href="./aboutus.html">Join Us</a></li>
+                    </ul>
+                </div>
+                <div class="footersection3">
+
+                </div>
+            </div>
+            <div class="copyright">Copyright 2025 covaijobs</div>
+
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
